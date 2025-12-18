@@ -1,0 +1,8 @@
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\JFBostonAdminAPI.csproj.AssemblyReference.cache
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\JFBostonAdminAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\JFBostonAdminAPI.AssemblyInfoInputs.cache
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\JFBostonAdminAPI.AssemblyInfo.cs
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\JFBostonAdminAPI.csproj.CoreCompileInputs.cache
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\JFBostonAdminAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\JFBostonAdminAPI\AdminAPI\obj\Debug\net10.0\JFBostonAdminAPI.sourcelink.json
