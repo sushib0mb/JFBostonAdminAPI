@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JFBostonAdminAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58de1fd8108829a7aa7e4c8bbe43acbf6145a45a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1481020962a9ca2c586e5e6ba8a4b70778be4a92")]
 [assembly: System.Reflection.AssemblyProductAttribute("JFBostonAdminAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JFBostonAdminAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
