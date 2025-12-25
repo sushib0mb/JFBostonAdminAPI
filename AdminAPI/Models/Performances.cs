@@ -11,8 +11,8 @@ public class Performances : BaseModel
     public int Id { get; set; }
 
     [Column("performance_name")]
-    public required string Name { get; set; }
+    public string Name { get; set; } = null!;
 
     [Column("start_time")]
-    public required DateTime StartTime { get; set; }
+    public DateTime StartTime { get; set; }
 }

@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("3b0c830a-5114-4cde-8565-9e8bd94575f2")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("JFBostonAdminAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c22b279c66e0376cdb3c0ac03b97b0a802514afd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58de1fd8108829a7aa7e4c8bbe43acbf6145a45a")]
 [assembly: System.Reflection.AssemblyProductAttribute("JFBostonAdminAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JFBostonAdminAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
