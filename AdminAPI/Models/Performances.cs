@@ -15,4 +15,8 @@ public class Performances : BaseModel
 
     [Column("start_time")]
     public DateTime StartTime { get; set; }
+
+    [Column("stage_name")]
+
+    public string StageName { get; set; } = null!;
 }

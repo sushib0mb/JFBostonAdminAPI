@@ -1,6 +1,7 @@
 using System.Reflection.Metadata.Ecma335;
 using JFBostonAdminAPI.Models;
 using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.IdentityModel.Tokens;
 using Supabase;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,16 +15,22 @@ builder.Services.AddSingleton(provider => new Supabase.Client(url, key, options)
 
 var app = builder.Build();
 
-app.MapGet("/api/schedule", async (Supabase.Client client) =>
+// By default fetches all peformances across all stages, or fetches all performances belonging to a stage based on the stagename param
+app.MapGet("/api/schedule", async (Supabase.Client client, string? stagename = null) =>
 {
-    var result = await client.From<Performances>().Get();
+    var query = client.From<Performances>();
+
+    var result = !string.IsNullOrEmpty(stagename)
+    ? await query.Where(x => x.StageName == stagename).Get()
+    : await query.Get();
 
     // This "Select" maps your complex model to a simple list of values
     var cleanData = result.Models.Select(p => new
     {
         p.Id,
         p.Name,
-        p.StartTime
+        p.StartTime,
+        p.StageName
     }).OrderBy(p => p.StartTime);
 
     return Results.Ok(cleanData);
