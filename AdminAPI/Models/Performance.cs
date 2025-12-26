@@ -5,7 +5,7 @@ namespace JFBostonAdminAPI.Models;
 
 // Name of supabase table holding stage events
 [Table("stage_events")]
-public class Performances : BaseModel
+public class Performance : BaseModel
 {
     [PrimaryKey("id")]
     public int Id { get; set; }
